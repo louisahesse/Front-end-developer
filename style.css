@@ -15,15 +15,18 @@ h1 {
 
 .hero h2 {
   color: #e391ab;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 25px;
   font-weight: light 300;
   text-align: right;
   margin-bottom: 20px;
 }
 
-.developer-word {
-  color: linear-gradient(#f67748, #ffbda6);
+h3 {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .hero {
@@ -62,6 +65,24 @@ h1 {
 }
 
 .icon-links:hover {
-  color: #7facef;
-  font-size: 35px;
+  font-size: 40px;
+}
+.project-link {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  text-align: center;
+  transition: all 100ms ease-in-out;
+  font-size: 30px;
+  padding: 18px;
+}
+.project-link a {
+  color: black;
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+.project-link:hover {
+  font-size: 20px;
+  color: black;
 }
