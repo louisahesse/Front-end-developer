@@ -1,3 +1,67 @@
-/* font-family: 'Chivo Mono', monospace;
-font-family: 'Oleo Script Swash Caps', cursive;
-font-family: 'PT Serif', serif; */
+/*   font-family: "Bitter", serif;
+ */
+body {
+  background: #f9eee4;
+}
+h1 {
+  color: linear-gradient(#f67748, #ffbda6);
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  text-align: right;
+  font-size: 110px;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.hero h2 {
+  color: #e391ab;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: light 300;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.developer-word {
+  color: linear-gradient(#f67748, #ffbda6);
+}
+
+.hero {
+  background: #f9eee4;
+  text-align: left;
+}
+
+.shecodes-link {
+  text-decoration: none;
+  color: #1869e5;
+
+  font-family: "Raleway", sans-serif;
+  transition: all 100ms ease-in-out;
+  text-align: right;
+  position: relative;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+}
+.shecodes-link:hover {
+  font-size: 20px;
+  color: #7facef;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-links a {
+  padding: 105px 15px 0px 15px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.icon-links:hover {
+  color: #7facef;
+  font-size: 35px;
+}
