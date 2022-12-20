@@ -116,7 +116,10 @@ h5 {
 }
 .projects-h1 {
   text-align: center;
-  margin-top: 85px;
+  margin-top: 90px;
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  font-size: 100px;
 }
 
 .projects-info {
