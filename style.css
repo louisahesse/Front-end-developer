@@ -6,8 +6,10 @@
 body {
   background: #f9eee4;
 }
-h1 {
-  color: linear-gradient(#f67748, #ffbda6);
+.home-h1 {
+  background: -webkit-linear-gradient(#f67748, #ffbda6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "Bitter", serif;
   font-weight: bold;
   text-align: right;
