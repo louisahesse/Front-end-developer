@@ -189,9 +189,40 @@ h6 {
   font-size: 60px;
 }
 .nav {
-  background-color: inherit;
   color: black;
+  background-color: inherit;
+  color: currentcolor;
 }
+
+.contact-h1 {
+  text-align: center;
+  font-size: 90px;
+  margin-top: 40px;
+  right: 90px;
+  margin-left: 30px;
+  font-family: "Bitter", serif;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-weight: lighter;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
