@@ -39,7 +39,7 @@ h3 {
 }
 h4 {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 22px;
   text-align: center;
   font-weight: bold;
 }
@@ -81,7 +81,7 @@ h5 {
 .icon-project-links a {
   color: black;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   transition: all 100ms ease-in-out;
   padding: 20px 6px 0px 6px;
   margin-top: -65px;
@@ -179,12 +179,13 @@ p {
   font-weight: bold;
 }
 
-h6 {
-  font-size: 15px;
+.about-text {
+  font-size: 18px;
   line-height: 2;
   text-align: left;
-  margin-left: 15px;
+
   margin-top: 20px;
+  max-width: 120%;
 }
 
 .second-word {
@@ -309,7 +310,7 @@ footer .social-links a {
   border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
-  margin-top: -50px;
+  margin-top: -40px;
 }
 
 footer .social-links a:hover {
@@ -322,6 +323,9 @@ footer .email-link {
   font-size: 15px;
   background: #f9eee4;
   margin-top: -10px;
+}
+footer .btn-branding:hover {
+  color: white;
 }
 
 @media (max-width: 576px) {
