@@ -73,21 +73,24 @@ h5 {
   color: #f28482;
 }
 
-.icon-project-links {
+footer .icon-project-links {
   display: flex;
   justify-content: center;
+  padding: 20px 6px 0px 6px;
 }
 
-.icon-project-links a {
+footer .icon-project-links a {
+  margin: 0 10px;
   color: black;
-  text-align: center;
-  font-size: 20px;
-  transition: all 100ms ease-in-out;
+  background: #f9eee4;
   padding: 20px 6px 0px 6px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
   margin-top: -65px;
 }
 
-.icon-links:hover {
+footer .icon-links:hover {
   font-size: 20px;
 }
 .btn-branding {
