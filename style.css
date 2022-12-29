@@ -31,10 +31,11 @@ body {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: bold;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 75px;
 }
 h4 {
   font-family: "Open Sans", sans-serif;
@@ -94,7 +95,7 @@ h5 {
   font-weight: 900;
   text-align: center;
   transition: all 100ms ease-in-out;
-  font-size: 30px;
+
   padding: 18px;
 }
 .btn-branding a {
@@ -103,7 +104,7 @@ h5 {
   background-color: #f28482;
   border-radius: 18px;
   transition: all 100ms ease-in-out;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 27px;
   padding: 12px 20px;
 }
@@ -249,6 +250,10 @@ nav a {
   text-decoration: none;
   color: #272142;
   transition: all 100ms ease-in-out;
+}
+
+.nav:hover {
+  color: black;
 }
 
 footer {
