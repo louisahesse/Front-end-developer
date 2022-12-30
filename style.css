@@ -1,20 +1,21 @@
-:root {
-  --primary-color: #1869e5;
-  --secondary-color: #e391ab;
+body {
+  background: #fffef2;
 }
 
-body {
-  background: #f9eee4;
+.hero {
+  background: #d8c19e;
+  text-align: center;
+  padding: 120px 20px;
 }
 .home-h1 {
   color: black;
 
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  text-align: left;
-  font-size: 50px;
+  text-align: center;
+  font-size: 65px;
   margin-bottom: 20px;
-  line-height: 1;
+  line-height: 1.1;
   margin-left: 15px;
   margin-top: 15px;
 }
@@ -22,16 +23,16 @@ body {
 .hero h2 {
   color: black;
   font-family: "Open Sans", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: light 300;
-  text-align: left;
-  margin-top: -25px;
+  text-align: center;
+  margin-top: -5px;
 
   margin-left: 15px;
 }
 
 h3 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -50,27 +51,22 @@ h5 {
   text-align: center;
 }
 
-.hero {
-  background: #f9eee4;
-  text-align: left;
-}
-
 .shecodes-link {
   text-decoration: none;
-  color: #f28482;
+  color: black;
 
   font-family: "Raleway", sans-serif;
   transition: all 100ms ease-in-out;
-  text-align: left;
+  text-align: center;
   position: relative;
   display: block;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: lighter;
   margin-left: 15px;
 }
 .shecodes-link:hover {
   font-size: 20px;
-  color: #f28482;
+  color: black;
 }
 
 footer .icon-project-links {
@@ -82,7 +78,7 @@ footer .icon-project-links {
 footer .icon-project-links a {
   margin: 0 10px;
   color: black;
-  background: #f9eee4;
+  background: #fffef2;
   padding: 20px 6px 0px 6px;
   border-radius: 50%;
   font-size: 18px;
@@ -93,28 +89,28 @@ footer .icon-project-links a {
 footer .icon-links:hover {
   font-size: 20px;
 }
-.btn-branding {
+.btn-branding-outline {
   font-family: "Open Sans", sans-serif;
-  font-weight: 900;
+
   text-align: center;
   transition: all 100ms ease-in-out;
 
   padding: 18px;
 }
-.btn-branding a {
-  color: white;
+.btn-branding-outline a {
+  color: black;
   text-decoration: none;
-  background-color: #f28482;
-  border-radius: 18px;
+  background-color: #fffef2;
+  border-radius: 15px;
+  border: 1px solid black;
   transition: all 100ms ease-in-out;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 27px;
-  padding: 12px 20px;
+  padding: 20px 15px 20px;
 }
 
-.btn-branding:hover {
-  font-size: 20px;
-  color: black;
+.btn-branding-outline:hover {
+  font-size: larger;
 }
 
 .project-page {
@@ -233,8 +229,9 @@ p {
 nav {
   padding: 20px 0;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   margin-right: 50px;
+  background-color: #fffef2;
 }
 
 nav ul {
@@ -279,7 +276,8 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 20px;
   font-family: "Open Sans", sans-serif;
-  background-color: #efdcca;
+  background-color: #252525;
+  color: white;
 }
 footer .contact-box p {
   margin: 0;
@@ -294,23 +292,32 @@ footer .contact-box h7 {
   display: block;
   position: relative;
   font-size: 20px;
-  margin-bottom: -20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #252525;
 }
 
 footer.text-muted {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   text-align: center;
-  margin: 10px;
-  margin-top: 30px;
+  margin: 15px;
+  margin-bottom: 20px;
+  display: block;
+  position: relative;
+}
+
+footer .social-links {
+  color: black;
+  background: #fffef2;
 }
 
 footer .social-links a {
   margin: 0 10px;
   color: black;
-  background: #f9eee4;
+  background: #fffef2;
   padding: 20px 6px 0px 6px;
-  border-radius: 50%;
+  border: none;
   font-size: 18px;
   transition: all 100ms ease-in-out;
   margin-top: -40px;
@@ -319,15 +326,13 @@ footer .social-links a {
 footer .social-links a:hover {
   font-size: 20px;
 }
-
-footer .email-link {
-  text-decoration: none;
-  color: black;
-  font-size: 15px;
-  background: #f9eee4;
-  margin-top: -10px;
+footer .btn-branding {
+  color: white;
+  background: #252525;
+  border: 1px solid white;
 }
 footer .btn-branding:hover {
+  font-size: larger;
   color: white;
 }
 
