@@ -101,7 +101,7 @@ footer .icon-links:hover {
   color: black;
   text-decoration: none;
   background-color: #fffef2;
-  border-radius: 15px;
+  border-radius: 5px;
   border: 1px solid black;
   transition: all 100ms ease-in-out;
   font-size: 15px;
@@ -109,8 +109,10 @@ footer .icon-links:hover {
   padding: 20px 15px 20px;
 }
 
-.btn-branding-outline:hover {
-  font-size: larger;
+.btn-branding-outline a:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
 }
 
 .project-page {
@@ -128,10 +130,10 @@ footer .icon-links:hover {
 .projects-info {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-weight: 900;
+  font-weight: lighter;
   text-align: center;
 
-  font-size: 30px;
+  font-size: 20px;
   padding: 18px;
 }
 
@@ -139,7 +141,7 @@ footer .icon-links:hover {
   text-align: center;
   display: block;
   position: relative;
-  border-radius: 10%;
+  border-radius: 5px;
   padding: 25px;
   max-width: 600px;
   margin-left: auto;
@@ -158,14 +160,6 @@ p {
   font-size: 15px;
   line-height: 1.5;
   text-align: center;
-}
-
-.icon-project-links {
-  color: var(--primary-color);
-  text-align: center;
-  font-size: 30px;
-  transition: all 100ms ease-in-out;
-  padding: 35px 20px 0px 20px;
 }
 
 .about-h1 {
@@ -253,23 +247,20 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-.nav:hover {
+nav a:hover,
+nav li.active a {
   color: black;
 }
 
-footer {
+.footer-box {
   margin: 60px 0;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   display: block;
   position: relative;
-}
-
-.email-link {
-  text-decoration: none;
   color: white;
-  font-size: 24px;
-  font-family: "Open Sans", sans-serif;
+  background-color: #252525;
+  text-align: center;
 }
 
 footer .contact-box {
@@ -279,11 +270,7 @@ footer .contact-box {
   background-color: #252525;
   color: white;
 }
-footer .contact-box p {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
-  font-weight: lighter;
-}
+
 footer .contact-box h7 {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -292,9 +279,6 @@ footer .contact-box h7 {
   display: block;
   position: relative;
   font-size: 20px;
-  margin-top: 20px;
-  color: white;
-  background-color: #252525;
 }
 
 footer.text-muted {
@@ -302,38 +286,40 @@ footer.text-muted {
   font-weight: lighter;
   text-align: center;
   margin: 15px;
-  margin-bottom: 20px;
+
   display: block;
   position: relative;
 }
 
 footer .social-links {
-  color: black;
-  background: #fffef2;
+  color: white;
+  background: #252525;
 }
-
 footer .social-links a {
-  margin: 0 10px;
-  color: black;
-  background: #fffef2;
-  padding: 20px 6px 0px 6px;
+  color: white;
+  background: #252525;
+  margin-top: 20px;
   border: none;
-  font-size: 18px;
-  transition: all 100ms ease-in-out;
-  margin-top: -40px;
+  margin: 0 10px;
+  border: none;
+  font-size: 22px;
 }
 
-footer .social-links a:hover {
-  font-size: 20px;
-}
 footer .btn-branding {
   color: white;
   background: #252525;
   border: 1px solid white;
+  border-radius: 5px;
 }
 footer .btn-branding:hover {
   font-size: larger;
   color: white;
+  background: #252525;
+}
+.hero-contact {
+  background: #d8c19e;
+  text-align: center;
+  padding: 100px 20px;
 }
 
 @media (max-width: 576px) {
