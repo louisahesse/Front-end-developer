@@ -262,6 +262,7 @@ nav li.active a {
   background-color: #252525;
   padding: 1px 50px;
   text-align: center;
+  margin-top: auto;
 }
 
 footer .contact-box {
@@ -316,9 +317,9 @@ footer .btn-branding {
   transition: all 100ms ease-in-out;
 }
 footer .btn-branding:hover {
-  font-size: larger;
-  color: white;
-  background: #252525;
+  color: #252525;
+  background: white;
+  border: 1px solid black;
 }
 .hero-contact {
   background: #d8c19e;
