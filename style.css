@@ -1,6 +1,7 @@
 :root {
   --primary-color: #fffef2;
   --secondary-color: #d8c19e;
+  --third-color: #252525;
   --main-font-family: "Open Sans", sans-serif;
   --second-font-family: "Raleway", sans-serif;
 }
@@ -107,9 +108,9 @@ footer .icon-links:hover {
 .btn-branding-outline a {
   color: black;
   text-decoration: none;
-  background-color: #fffef2;
+  background-color: var(--primary-color);
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid #333333;
   transition: all 100ms ease-in-out;
   font-size: 15px;
   line-height: 27px;
@@ -117,7 +118,7 @@ footer .icon-links:hover {
 }
 
 .btn-branding-outline a:hover {
-  background-color: black;
+  background-color: #333333;
   color: white;
   border: 1px solid white;
 }
@@ -250,7 +251,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #272142;
+  color: var(--third-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -265,7 +266,7 @@ nav li.active a {
   display: block;
   position: relative;
   color: white;
-  background-color: #252525;
+  background-color: var(--third-color);
   padding: 1px 200px;
   text-align: center;
   margin-top: auto;
@@ -276,7 +277,7 @@ footer .contact-box {
   padding: 5px 50px;
   border-radius: 20px;
   font-family: var(--main-font-family);
-  background-color: #252525;
+  background-color: var(--third-color);
   color: white;
   display: block;
   position: relative;
@@ -302,7 +303,7 @@ footer.text-muted {
 
 footer .social-links a {
   color: white;
-  background: #252525;
+  background: var(--third-color);
   margin: 0 20px;
   font-size: 22px;
   padding: 10px 14px;
@@ -319,7 +320,7 @@ footer .social-links a:hover {
 
 footer .btn-branding {
   color: white;
-  background: #252525;
+  background: var(--third-color);
   border: 1px solid white;
   border-radius: 5px;
   padding: 20px 15px 20px;
