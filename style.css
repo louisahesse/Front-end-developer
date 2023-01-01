@@ -165,7 +165,7 @@ p {
 .about-h1 {
   text-align: left;
   font-size: 50px;
-  margin-top: 40px;
+
   right: 90px;
   margin-left: 15px;
   font-family: "Open Sans", sans-serif;
@@ -253,14 +253,13 @@ nav li.active a {
 }
 
 .footer-box {
-  margin: 60px 0;
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   display: block;
   position: relative;
   color: white;
   background-color: #252525;
-  padding: 1px 50px;
+  padding: 1px 200px;
   text-align: center;
   margin-top: auto;
 }
@@ -283,13 +282,14 @@ footer .contact-box h7 {
   display: block;
   position: relative;
   font-size: 22px;
+  margin-top: 20px;
 }
 
 footer.text-muted {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
   text-align: center;
-  margin: 17px;
+  margin: 19px;
 }
 
 footer .social-links a {
@@ -315,6 +315,8 @@ footer .btn-branding {
   border: 1px solid white;
   border-radius: 5px;
   transition: all 100ms ease-in-out;
+  margin-top: 20px;
+  padding: 20px 15px 20px;
 }
 footer .btn-branding:hover {
   color: #252525;
@@ -324,12 +326,25 @@ footer .btn-branding:hover {
 .hero-contact {
   background: #d8c19e;
   text-align: center;
-  padding: 75px 10px 50px;
+  padding: 40px;
 }
 
 .info-text {
   font-weight: lighter;
 }
+.about-img {
+  margin-bottom: 100px;
+  display: block;
+  position: relative;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+footer .icon-about {
+  display: flex;
+  justify-content: center;
+  padding: 20px 6px 0px 6px;
+}
+
 
 @media (max-width: 576px) {
   h1 {
